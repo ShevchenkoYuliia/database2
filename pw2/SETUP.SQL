@@ -1,6 +1,4 @@
-use pcmouse;
-
-
+USE pcmouse;
 CREATE TABLE Supplier (
     SupplierId INT PRIMARY KEY,
     Name NVARCHAR(100) NOT NULL,

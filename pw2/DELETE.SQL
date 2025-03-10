@@ -1,4 +1,4 @@
-use pcmouse;
+USE pcmouse;
 DELETE FROM OrderDetails;
 DELETE FROM OrderTable;
 DELETE FROM Customer;

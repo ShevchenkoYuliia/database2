@@ -1,4 +1,4 @@
-use pcmouse;
+USE pcmouse;
 
 UPDATE Supplier
 SET ContactNumber = '+380501234888'
