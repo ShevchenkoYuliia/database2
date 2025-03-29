@@ -14,12 +14,10 @@ JOIN OrderTable o ON od.OrderId = o.OrderId
 JOIN Customer c ON o.CustomerId = c.CustomerId
 JOIN ComputerMouse cm ON od.ProductId = cm.ProductId;
 
-SELECT cm.ProductId, cm.ModelName, cm.Brand, cm.StockQuantity, 'Available in Stock' AS Status
-FROM ComputerMouse cm
-UNION
-SELECT cm.ProductId, cm.ModelName, cm.Brand, od.ProductQuantity, 'Ordered' AS Status
-FROM OrderDetails od
-JOIN ComputerMouse cm ON od.ProductId = cm.ProductId;
+SELECT DISTINCT s.SupplierId, s.Name, s.ContactNumber
+FROM Supplier s
+JOIN ComputerMouse cm ON s.SupplierId = cm.SupplierId
+WHERE cm.Price > 3000;
 
 -- завдання 5
 -- Перевірка каскадних видалень
