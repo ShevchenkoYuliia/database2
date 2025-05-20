@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCMouseAPP", "PCMouseAPP\PCMouseAPP.csproj", "{2A311933-3F82-4F44-BF71-427F5A8ACD62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A311933-3F82-4F44-BF71-427F5A8ACD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A311933-3F82-4F44-BF71-427F5A8ACD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A311933-3F82-4F44-BF71-427F5A8ACD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A311933-3F82-4F44-BF71-427F5A8ACD62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBA7DE56-3FD5-482B-ADF7-895F0FB96ADB}
+	EndGlobalSection
+EndGlobal

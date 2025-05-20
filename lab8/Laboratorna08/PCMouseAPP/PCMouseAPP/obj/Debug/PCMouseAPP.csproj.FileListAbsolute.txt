@@ -1,0 +1,11 @@
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\bin\Debug\PCMouseAPP.exe.config
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\bin\Debug\PCMouseAPP.exe
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\bin\Debug\PCMouseAPP.pdb
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.csproj.AssemblyReference.cache
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.Form1.resources
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.Properties.Resources.resources
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.csproj.GenerateResource.cache
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.csproj.CoreCompileInputs.cache
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.exe
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.pdb
+D:\Юля\database project\Laboratorna08\PCMouseAPP\PCMouseAPP\obj\Debug\PCMouseAPP.exe.config
