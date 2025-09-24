@@ -4,47 +4,16 @@ This is a **student project** for practicing **SQL and database design** with **
 The database models a store that sells **computer mice**.  
 As the final stage, a **C# desktop application** (WinForms) was developed for interacting with the database.
 
----
-
-## 📚 Database Structure
+### 📚 Database Structure
 
 ### Main Tables
 - **Supplier** – stores supplier information (name, address, contacts).  
 - **ComputerMouse** – product catalog (model, brand, type, price, stock).  
 - **Customer** – customer data (name, email, phone, address).  
 - **OrderTable** – customer orders.  
-- **OrderDetails** – products inside each order.  
-
-### Example SQL Schema
-
-```sql
-USE pcmouse;
-
-CREATE TABLE Supplier (
-    SupplierId INT PRIMARY KEY,
-    Name NVARCHAR(100) NOT NULL,
-    Address NVARCHAR(200) NOT NULL,
-    ContactNumber NVARCHAR(20) NOT NULL,
-    Email NVARCHAR(100) NOT NULL UNIQUE
-);
-
-CREATE TABLE ComputerMouse (
-    ProductId INT PRIMARY KEY NONCLUSTERED,
-    ModelName NVARCHAR(100) NOT NULL,
-    Brand NVARCHAR(50) NOT NULL,
-    Type NVARCHAR(50) NOT NULL,
-    ButtonCount INT NOT NULL,
-    Size NVARCHAR(20),
-    Price DECIMAL(10, 2) NOT NULL,
-    StockQuantity INT NOT NULL,
-    Color NVARCHAR(20),
-    SupplierId INT NOT NULL,
-    FOREIGN KEY (SupplierId) REFERENCES Supplier(SupplierId)
-        ON DELETE CASCADE ON UPDATE CASCADE
-);
-(Full schema includes Customers, Orders, and OrderDetails with relations.)
-
-⚙️ Implemented Features
+- **OrderDetails** – products inside each order.
+- 
+### ⚙️ Implemented Features
 During the course, we practiced not only DDL (schema design), but also:
 
 ✅ Stored Procedures – inserting, updating, and deleting data.
@@ -57,20 +26,20 @@ During the course, we practiced not only DDL (schema design), but also:
 
 ✅ Views – simplified queries for sales reports and product availability.
 
-🖥️ Final Stage – C# Application
+### 🖥️ Final Stage – C# Application
 Developed a WinForms application for managing the database.
 
-🛠️ Technologies
+### 🛠️ Technologies
 MS SQL Server – database engine
 SQL – schema, procedures, functions, triggers
 C# (WinForms, .NET Framework) – desktop application
 
-🚀 How to Run
+### 🚀 How to Run
 Run SQL scripts in MS SQL Server Management Studio (SSMS).
 Open and build the C# project in Visual Studio.
 Adjust the App.config connection string to your SQL Server instance.
 
-🎯 Purpose
+### 🎯 Purpose
 This project was a training exercise in database design and application development, covering the full cycle:
 Modeling entities and relationships.
 Writing SQL queries, procedures, functions, triggers, and views.
