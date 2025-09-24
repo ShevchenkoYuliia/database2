@@ -12,7 +12,7 @@ As the final stage, a **C# desktop application** (WinForms) was developed for in
 - **Customer** – customer data (name, email, phone, address).  
 - **OrderTable** – customer orders.  
 - **OrderDetails** – products inside each order.
-- 
+
 ### ⚙️ Implemented Features
 During the course, we practiced not only DDL (schema design), but also:
 
